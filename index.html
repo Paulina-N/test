@@ -1,22 +1,118 @@
-<!-- LeadFlow AI Widget -->
-<!--<script>
-  (function() {
-    var script = document.createElement('script');
-    script.src ="https://37ae62c8-9188-4637-8140-e4a12e6b5e8e.sandbox.lovable.dev/leadflow-embed.js"
-    script.setAttribute('data-widget-id', '8b4ebffb-a4a3-4b29-b37c-022f04fc4367');
-    script.setAttribute('data-api-url', 'https://lrfjzgekyebdjqndeiag.supabase.co');
-    document.head.appendChild(script);
-  })();
-</script>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example Service Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
 
-<!-- ChatBot AI Widget -->
-<script
-  data-widget-id="d562ea24-39aa-40ec-93f8-e2d5a80caa14"
-  data-primary-color="#ac05c2"
-  data-position="bottom-right"
-  data-calendly-url="https://calendly.com/paulinanarkunaite/1-hour"
-  data-welcome-message="Hi! How can I help you today?"
-  src="https://nweboomqbuutnzwyihnx.supabase.co/functions/v1/widget"
-  async>
-</script>
+    header {
+      background-color: #ac05c2;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
 
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px 20px;
+      display: flex;
+      gap: 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #ac05c2;
+    }
+
+    .services-list {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    footer {
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Dream Home Realty</h1>
+    <p>Your trusted partner for buying and selling properties</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="services">
+      <h2>Our Services</h2>
+      <p>We help you find the perfect home or sell your property quickly and efficiently. Our services include:</p>
+      <ul class="services-list">
+        <li>Property Buying Consultation</li>
+        <li>Property Selling Consultation</li>
+        <li>Market Analysis and Valuation</li>
+        <li>Legal and Documentation Assistance</li>
+      </ul>
+      <p>Have questions about any service? Click the chatbot in the bottom-right to ask or book an appointment directly!</p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Dream Home Realty has been serving clients for over 10 years. Our agents are experienced, professional, and dedicated to helping you find your dream home or sell your property for the best price.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: info@dreamhomerealty.com</p>
+      <p>Phone: +1 234 567 890</p>
+      <p>Address: 123 Main Street, YourCity, YourCountry</p>
+      <p>Or use the chatbot in the corner to book a consultation instantly.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dream Home Realty. All rights reserved.</p>
+  </footer>
+
+  <!-- ChatBot AI Widget -->
+  <script
+    data-widget-id="d562ea24-39aa-40ec-93f8-e2d5a80caa14"
+    data-primary-color="#ac05c2"
+    data-position="bottom-right"
+    data-calendly-url="https://calendly.com/paulinanarkunaite/1-hour"
+    data-welcome-message="Hi! How can I help you today?"
+    src="https://nweboomqbuutnzwyihnx.supabase.co/functions/v1/widget"
+    async>
+  </script>
+
+</body>
+</html>
